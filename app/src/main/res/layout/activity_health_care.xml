@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HealthCare">
+
+    <TextView
+        android:id="@+id/textViewApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/fredokaone"
+        android:text="Health Care"
+        android:textColor="@color/yellow_primary_dark"
+        android:textSize="50sp" />
+
+    <TableLayout
+        android:layout_width="302dp"
+        android:layout_height="179dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="276dp"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnfev"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:background="@color/gray_deep"
+                android:text="Fever"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btncc"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@color/yellow_primary_dark"
+                android:padding="3dip"
+                android:text="common cold"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnsa"
+                android:layout_width="31dp"
+                android:layout_height="match_parent"
+                android:background="@color/google_blue"
+                android:text="stomach ache"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnga"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:background="@color/google_blue"
+
+                android:text="gas and acidity"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnc"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@color/app_red"
+                android:padding="3dip"
+                android:text="constipation"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnh"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@color/gray_deep"
+                android:padding="3dip"
+                android:text="hiccups"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+
+</RelativeLayout>
