@@ -24,17 +24,18 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="120dp"
-        android:layout_marginTop="196dp"
+        android:layout_marginTop="165dp"
         android:background="@color/google_blue"
         android:text="My profile"
         android:textColor="@color/white" />
+
     <Button
         android:id="@+id/buttonrd"
         android:layout_width="167dp"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/buttonmp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="259dp"
+        android:layout_marginTop="257dp"
         android:layout_marginEnd="-1dp"
         android:background="@color/google_blue"
         android:text="Reminders"
@@ -46,20 +47,20 @@
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/buttonmp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="285dp"
-        android:layout_marginEnd="1dp"
+        android:layout_marginTop="346dp"
+        android:layout_marginEnd="-1dp"
         android:background="@color/google_blue"
         android:text="Vaccine details"
         android:textColor="@color/white" />
 
     <Button
         android:id="@+id/buttonhc"
-        android:layout_width="165dp"
+        android:layout_width="169dp"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/buttonvd"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="371dp"
-        android:layout_marginEnd="1dp"
+        android:layout_marginTop="434dp"
+        android:layout_marginEnd="-2dp"
         android:background="@color/google_blue"
         android:text="Health care"
         android:textColor="@color/white" />
@@ -78,3 +79,4 @@
 
 
 </RelativeLayout>
+
