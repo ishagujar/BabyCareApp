@@ -66,11 +66,11 @@
 
     <Button
         android:id="@+id/buttonlc"
-        android:layout_width="167dp"
+        android:layout_width="168dp"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/buttonhc"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="463dp"
+        android:layout_marginTop="523dp"
         android:layout_marginEnd="0dp"
         android:background="@color/google_blue"
         android:text="Lullaby"
