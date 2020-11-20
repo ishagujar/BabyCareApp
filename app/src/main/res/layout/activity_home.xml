@@ -28,6 +28,17 @@
         android:background="@color/google_blue"
         android:text="My profile"
         android:textColor="@color/white" />
+    <Button
+        android:id="@+id/buttonrd"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonmp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="259dp"
+        android:layout_marginEnd="-1dp"
+        android:background="@color/google_blue"
+        android:text="Reminders"
+        android:textColor="@color/white" />
 
     <Button
         android:id="@+id/buttonvd"
