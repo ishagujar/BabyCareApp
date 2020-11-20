@@ -1,4 +1,4 @@
-package com.arnab.datta.babycare;
+package com.babycare;
 
 import org.junit.Test;
 
